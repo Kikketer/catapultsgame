@@ -1,0 +1,18 @@
+{
+  "name": "cataputs",
+  "version": "1.0.0",
+  "description": "Catapults! Board game marketing page",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "autoreload-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Weed (chris@catapultsgame.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "simple-autoreload-server": "^0.2.6"
+  }
+}

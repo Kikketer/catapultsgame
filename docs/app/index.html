@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" manifest="/manifest.appcache">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Catapults! Game</title>
+  <meta name="description" content="A 20 minute, family friendly game focusing on spacial awareness and fun!">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#0a0f13">
+  <link rel="shortcut icon" href="/img/favicon.ico">
+  <meta name="msapplication-config" content="/img/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Catapults!">
+
+  <link rel="stylesheet" href="../css/app.css">
+</head>
+<body>
+
+<div class="menu-bar">
+  <a href="/"><img src="/img/LogoStreight.png" srcset="/img/LogoStreight@2x.png 2x" alt="Catapults!"></a>
+</div>
+
+<div class="content">
+  <div id="timer">30</div>
+  <button id="btn-timer" class="btn">Start Timer</button>
+
+  <div class="install-instructions ios">
+    <p>Place this site on your homescreen:</p>
+    <img class="share-button" src="../img/ShareButton.jpg" alt="Share Button">
+    then
+    <img class="add-to-home" src="../img/AddToHome.jpg" srcset="../img/AddToHome@2x.jpg 2x" alt="Add to Home Button">
+  </div>
+
+</div>
+
+<script>
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/serviceworker.js')
+      .then(function() {
+        console.log('Service Worker Registered')
+      });
+  }
+</script>
+<script src="../js/app.js"></script>
+</body>
+</html>

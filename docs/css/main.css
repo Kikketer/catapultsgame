@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Supercell-Magic';
+  src: url('/css/fonts/Supercell-Magic.eot');
+  src: url('/css/fonts/Supercell-Magic.eot?#iefix') format('embedded-opentype'),
+  url('/css/fonts/Supercell-Magic.woff2') format('woff2'),
+  url('/css/fonts/Supercell-Magic.woff') format('woff'),
+  url('/css/fonts/Supercell-Magic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-family: 'Supercell-Magic', serif;
+  color: #e27107;
+}
+
+.banner {
+  background-image: url('/img/LogoSmall.jpg');
+  background-size: contain;
+  background-position: center 15%;
+  background-repeat: no-repeat;
+  height: 50vh;
+  background-color: #0a0f13;
+  position: relative;
+}
+
+.section-0 {
+  background-color: #304a59;
+  color: #c2c2c2;
+  padding: 1em 15px 5px 0;
+}
+
+.section-0 p {
+  padding: 0 0 1em 0;
+  margin: 0;
+  text-align: center;
+}
+
+.section-0 .btn-box {
+  text-align: center;
+}
+
+.section-1 {
+  margin-top: 30px;
+}
+
+.section-2 {
+  background-color: #304a59;
+  color: #c2c2c2;
+  padding: 30px 5px;
+}
+
+.section-3 {
+  padding: 30px 0;
+  background-color: #0a0f13;
+  color: #ffd281;
+}
+
+.calltoaction {
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  bottom: 10%;
+  position: absolute;
+}
+
+.build-destroy {
+  margin-bottom: 15px;
+}
+
+.coming-soon-logo {
+  text-align: center;
+}
+
+#mc_embed_signup .button {
+  background-color: #c58500;
+}
+
+#mc_embed_signup .button:hover {
+  background-color: #f7a700;
+}
+
+form {
+  text-align: center;
+  color: black;
+}
+
+.form-block {
+  display: inline-block;
+  margin: auto;
+}
+
+.social-logo {
+  height: 50px;
+}
+
+#confirmed {
+  color: #ffd281;
+  font-size: 24px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+footer {
+  background-color: #595959;
+  text-align: center;
+  padding: 25px;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  .banner {
+
+  }
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  .section-0 p {
+    text-align: right;
+  }
+
+  .section-0 .btn-box {
+    text-align: left;
+  }
+
+  .banner {
+    min-height: 600px;
+    height: 80vh;
+    background-image: url('/img/catapults_cover.jpg');
+    background-size: cover;
+    background-position: center top;
+  }
+
+  .calltoaction {
+    width: 100%;
+    margin: 0;
+    background-color: rgba(0,0,0,.6);
+  }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  .banner {
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  .banner {
+  }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+  .banner {
+  }
+}

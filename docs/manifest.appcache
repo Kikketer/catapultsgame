@@ -1,0 +1,16 @@
+CACHE MANIFEST
+# 1
+
+CACHE:
+/app/index.html
+/js/app.js
+/img/LogoStreight.png
+/img/LogoStreight@2x.png
+/css/app.css
+/css/fonts/Supercell-Magic.eot
+/sounds/game-start.mp3
+/sounds/end-game.mp3
+/sounds/warning-sound.mp3
+
+NETWORK:
+*
