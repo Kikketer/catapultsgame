@@ -1,2 +1,0 @@
-# catapultsgame
-Created with CodeSandbox
